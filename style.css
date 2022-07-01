@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*{
+    font-family: 'Fascinate', cursive;
+    font-family: 'League Gothic', sans-serif;
+}*/
+/*selector{
+    propiedad: valor;
+}*/
+
+
+
+
+
+main{
+background-image: url("./imagenes/fondodepantalla.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+}
+
+.colorcabecera{
+    background-color: rgb(76, 76, 180);
+    border-radius: 10px;
+}
+.colorpiepagina{
+    background-color: rgb(76, 76, 180);
+    border-radius: 10px;
+}
+
+h1{    
+    font-family: 'Fascinate', cursive;
+    font-size: 300%;
+}
+h2{
+    font-family: 'League Gothic', sans-serif;
+    color:black;
+    font-size: 200%;
+}
+nav ul { 
+    list-style: none;
+    
+}
+    
+p {
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0,5px;
+}
+
+.colorParrafo{
+    color: white;
+}
+
+nav ul li a{    
+    color: black;
+    text-decoration: dotted;
+    font-family: 'Fascinate', cursive;
+  
+}
+/* color de los contacto*/
+.colorContacto{
+    color: white;
+}   
+    
+
