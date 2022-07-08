@@ -35,11 +35,17 @@ h1{
     font-size: 400%;
     width: fit-content;
     margin: 0 auto;
+    transition: transform 4s;
+
+}
+h1:hover{
+    transform: scale(3);
+
 }
 h2{
     font-family: 'League Gothic', sans-serif;
     color:black;
-    font-size: 150%;
+    font-size: 180%;
     width: fit-content;
     border: solid 3px black;
 }
@@ -113,9 +119,9 @@ nav ul li a{
 .tamañologo{
     height: 100px;
     width: 100px;
-    padding: 10px 10px 10px 10px;
-    
+    padding: 10px 10px 0px; 
 }
+
 .whatsapp{
     width: 60px;
     position: fixed;
