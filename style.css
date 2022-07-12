@@ -35,19 +35,24 @@ h1{
     font-size: 400%;
     width: fit-content;
     margin: 0 auto;
-    transition: transform 4s;
+    transition: transform 4s ;
 
 }
 h1:hover{
     transform: scale(3);
-
+    
 }
 h2{
-    font-family: 'League Gothic', sans-serif;
+    font-family: 'Fascinate', cursive;
     color:black;
     font-size: 180%;
     width: fit-content;
     border: solid 3px black;
+    margin: 0px 0px 10px;
+    transition: transform 2s;
+}
+h2:hover{
+    transform: rotate(360deg);
 }
 h3{
     font-family: 'League Gothic', sans-serif;
@@ -58,12 +63,14 @@ h3{
 }
 .Subtitulo{
     font-family: 'Fascinate', cursive;
-    font-size: 100%;
+    font-size: 150%;
     width: fit-content;
     margin: 0 auto;
     border: none;
-
+    transition: transform 4s;
 }
+
+
 nav ul { 
     list-style: none;
 }
@@ -117,8 +124,8 @@ nav ul li a{
     width: 50px;
 }
 .tamañologo{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     padding: 10px 10px 0px; 
 }
 
