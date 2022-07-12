@@ -18,9 +18,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
+    border: solid 2px black;
 }
+    
 .colorcabecera{
     background-color: rgb(39, 85, 112);
     /* position: sticky;
@@ -48,6 +48,10 @@ h2{
     font-size: 180%;
     width: fit-content;
     border: solid 3px black;
+    transition: transform 2s;
+}
+h2:hover{
+    transform: rotate(360deg);
 }
 h3{
     font-family: 'League Gothic', sans-serif;
@@ -135,8 +139,14 @@ nav ul li a{
 }
    
 .foto__index__imagen__1{
+    padding: 40px 40px;
     width: 250px;
     height: 500px;
+}
+.video_index{
+ display: flex;
+ justify-content: center;
+ padding: 20px 20px 20px 20px;
 }
 
 /* UBICACION */
@@ -200,18 +210,26 @@ nav ul li a{
     width: 300px;
     height: 300px;
 }
-.grid__item{
-    padding-top: 20px;
+
+.grid__item1{
+   padding: 20px 20px 20px 20px;
+   border:solid 2px black;
+   display: flex;
+   flex-direction: row;
+}
+   
+.grid__item2{
+    padding: 20px 20px 20px 20px;
     padding-bottom: 20px;
     border:solid 2px black;
-
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row-reverse;
 }
-.grid{
-    display: grid;
+
+.grid__item3{
+    padding: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+    border:solid 2px black;
+    display: flex;
+    flex-direction: row;
 }
-    
-
-
