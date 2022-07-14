@@ -14,6 +14,7 @@
 /* INDEX */
 .fondopantalla{
     height: 100%;
+    width: 100%;
     background-image: url("./imagenes/fondodepantalla3.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -81,10 +82,10 @@ p {
 }
     
 .colorParrafo{
-    width: 80%;
-    margin: auto auto;
+    width: 90%;
+    padding: 20px 30px 5px 50px;
     color: rgb(12, 12, 12);
-    text-align: center;
+    text-align:center
 }
 
 nav ul li a{    
@@ -132,22 +133,38 @@ nav ul li a{
     right: 15px;
     bottom: 15px;
 }
-.foto__index{
+/* .foto__index{
     display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;  
-}
+} */
    
-.foto__index__imagen__1{
+/* .foto__index__imagen__1{
     padding: 40px 40px;
     width: 250px;
     height: 500px;
 }
+ */
 .video_index{
  display: flex;
  justify-content: center;
  padding: 20px 20px 20px 20px;
+} 
+.carousel-inner{
+    height: 700px;
+    width: 500px;
+    
 }
+.imagen_index{
+    height: 700px;
+    width: 100%;
+    object-fit: contain;
+ 
+}
+ 
+    
+
+  
 
 /* UBICACION */
 

@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Tupac</title>
+    <title>lucky</title>
 </head>
 <body >
+    <main class="fondopantalla">
     <header class="colorcabecera">
         <a href="#"><img src="./imagenes/LOGO LUCKY.png" alt="logo lucky" class="tamañologo"></a>
         <h1>LUCKY</h1>
@@ -27,32 +29,41 @@
             </ul>
         </nav>
     </header>
-        <main class="fondopantalla">
-            <section class="foto__index">
-                    <div class="foto__index__imagen">
-                        <img src="./imagenes/imagen1.jpg" class="foto__index__imagen__1" alt="foto jogger 1" >
-                    </div>
-                    <div class="foto__index__imagen">
-                        <img src="./imagenes/imagen2.jpg" class="foto__index__imagen__1" alt="foto jogger 2" >
-                    </div>
-                    <div class="foto__index__imagen">
-                        <img src="./imagenes/imagen3.jpg"  class="foto__index__imagen__1"  alt="foto jogger 3">
-                    </div>
-                    <div>
-                        <p class="colorParrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa labore ut, aspernatur fugit magnam rem perferendis, dolores quod libero vero repudiandae sint ipsa ullam, aliquid cumque eveniet rerum! Saepe, quos.
-                        Eum sapiente aperiam quisquam dolorem exercitationem praesentium, doloremque placeat incidunt quaerat itaque animi dignissimos assumenda eaque in cum laudantium numquam similique quos repellendus natus quasi qui eligendi! Excepturi, asperiores libero.
-                        Ipsa dolorem illo architecto sunt odit quam labore velit veritatis maxime iste autem dicta commodi corporis doloremque voluptatem exercitationem minima rerum, voluptate porro nam consequuntur assumenda, nesciunt consequatur cupiditate! Nostrum.
-                        Repellat aut in voluptatum aspernatur vel omnis molestiae quos itaque reiciendis sequi quaerat expedita, ipsa libero ea dicta quo nostrum! Quaerat sequi accusamus rem doloribus id? Impedit dicta dolores error.
-                        Modi fugit optio, eum et voluptate dignissimos perferendis minima accusamus doloremque deleniti odio totam, quam doloribus officia quas libero. Veritatis soluta unde inventore rerum quia, saepe dolorem tempora nihil animi.
-                        </p>
-                </div>
-            
-            </section>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img  src="./imagenes/imagen1.jpg" class="d-block w-100 imagen_index" alt="foto1">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/imagen2.jpg" class="d-block w-100 imagen_index" alt="foto2">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/imagen3.jpg" class="d-block w-100 imagen_index" alt="foto3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </main>
+    
             <section  class="video_index">
                 <iframe width="700" height="250" src="https://www.youtube.com/embed/uA7h6Tq5xJQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe>>
             </section>
 
-        </main>
+    </main>
 
     <footer class="colorpiepagina">
         <div>
@@ -70,6 +81,7 @@
                 </a>
         </nav>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
