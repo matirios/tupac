@@ -7,9 +7,6 @@
     font-family: 'Fascinate', cursive;
     font-family: 'League Gothic', sans-serif;
 }*/
-/*selector{
-    propiedad: valor;
-}*/
 
 /* INDEX */
 .fondopantalla{
@@ -23,52 +20,11 @@
 }
     
 .colorcabecera{
-    background-color: rgb(39, 85, 112);
-    /* position: sticky;
-    top: 0px; */
+    width: 100%;
+    background-color: whitesmoke;
+  
 }
-.colorpiepagina{
-    background-color: rgb(39, 85, 112);
-}
-    
-h1{  
-    font-family: 'Fascinate', cursive;
-    font-size: 400%;
-    width: fit-content;
-    margin: 0 auto;
-    transition: transform 4s;
 
-}
-h1:hover{
-    transform: scale(3);
-
-}
-h2{
-    font-family: 'League Gothic', sans-serif;
-    color:black;
-    font-size: 180%;
-    width: fit-content;
-    border: solid 3px black;
-    transition: transform 2s;
-}
-h2:hover{
-    transform: rotate(360deg);
-}
-h3{
-    font-family: 'League Gothic', sans-serif;
-    color:black;
-    font-size: 150%;
-    margin: 20px 20px 30px 90px;
-    
-}
-.Subtitulo{
-    font-family: 'Fascinate', cursive;
-    font-size: 100%;
-    width: fit-content;
-    margin: 0 auto;
-    border: none;
-
-}
 nav ul { 
     list-style: none;
 }
@@ -94,37 +50,20 @@ nav ul li a{
     font-family: 'Fascinate', cursive;
 }
 
-.encabezado__lista{
-    /* display: inline-block;
-    margin: 16px; */
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    font-size: 20px;
-}  
-
 .pie_pagina{
   
-     width: 30%;
+     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
-.facebook{
-    width: 50px;
-}
-.instagram{
-    width: 50px;
-}
-.correo {
-    width: 50px;
-}
+
 .tamañologo{
-    height: 100px;
-    width: 100px;
-    padding: 10px 10px 0px; 
+    height: 140px;
+    width: 200px;
+    padding: 10px 10px 0px;
+   
 }
 
 .whatsapp{
@@ -133,39 +72,43 @@ nav ul li a{
     right: 15px;
     bottom: 15px;
 }
-/* .foto__index{
-    display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;  
-} */
-   
-/* .foto__index__imagen__1{
-    padding: 40px 40px;
-    width: 250px;
-    height: 500px;
-}
- */
+
 .video_index{
  display: flex;
  justify-content: center;
  padding: 20px 20px 20px 20px;
+ 
 } 
-.carousel-inner{
-    height: 700px;
-    width: 500px;
-    
+.video_index iframe{
+    border: solid 3px black;
 }
-.imagen_index{
-    height: 700px;
-    width: 100%;
-    object-fit: contain;
- 
+
+.carousel-item{
+    padding: 20px 20px 20px 20px;
+   
 }
- 
+.navbar-brand{
+    font-size: 50px;
+    transition: transform 2s;
+}
+
+.navbar-brand:hover{
+    transform: rotate(360deg)
+}  
+.navbar-collapse{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-fluid{
+    font-family: 'Fascinate', cursive;
+   
+}
+.nav-link {
+    font-size: 30px;
+}
+
+   
     
-
-  
-
 /* UBICACION */
 
 .mapaubicacion{
@@ -198,8 +141,7 @@ nav ul li a{
 .galeria__imagen__jogger{
     width: 100%;
     height: 600px;
-    
-    
+     
 }
 
 .galeria__imagen__texto{
