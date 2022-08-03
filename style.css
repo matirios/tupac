@@ -10,9 +10,10 @@
 
 /* INDEX */
 .fondopantalla{
+    
     height: 100%;
     width: 100%;
-    background-image: url("./imagenes/fondodepantalla3.jpg");
+    background-image: url("./imagenes/fondodepantalla.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,7 +23,8 @@
 .colorcabecera{
     width: 100%;
     background-color: whitesmoke;
-  
+    
+    
 }
 
 nav ul { 
@@ -32,7 +34,7 @@ nav ul {
 p {
     font-family: 'League Gothic', sans-serif;
     font-weight: 700;
-   
+    color: white;
     line-height: 1.5;
     letter-spacing: 0,5px;
 }
@@ -40,7 +42,7 @@ p {
 .colorParrafo{
     width: 90%;
     padding: 20px 30px 5px 50px;
-    color: rgb(12, 12, 12);
+    color: wheat;
     text-align:center
 }
 
@@ -67,7 +69,7 @@ nav ul li a{
 }
 
 .whatsapp{
-    width: 60px;
+    width: 50px;
     position: fixed;
     right: 15px;
     bottom: 15px;
@@ -75,12 +77,17 @@ nav ul li a{
 
 .video_index{
  width: 100%;
- height: auto;
+ height: 100%;
  display: flex;
  justify-content: center;
- padding: 20px 20px 20px 20px;
- 
+ padding: 5% 5% 5% 5%;
 } 
+ 
+ section iframe{
+    border: solid 2px whitesmoke;
+    width: 60%;
+    height: 100%;
+ }
 
 
 .carousel-item{
@@ -88,8 +95,10 @@ nav ul li a{
    
 }
 .navbar-brand{
+    padding: 0 20px;
+    color: rgb(32, 32, 37);
     font-size: 50px;
-    transition: transform 2s;
+    transition: transform 3s;
 }
 
 .navbar-brand:hover{
@@ -104,11 +113,10 @@ nav ul li a{
    
 }
 .nav-link {
-    font-size: 20px;
+    font-size: 30px;
+    color: rgb(32, 32, 37);
 }
 
-   
-    
 /* UBICACION */
 
 .row{
@@ -118,10 +126,11 @@ nav ul li a{
 }
 
 .tamaño_mapa{
-   
-    margin: 20px 20px 20px 20px;
-    height: 300px;
-
+    
+    margin: 10px 10px 10px 10px;
+    height: 80%;
+    width: auto;
+    
 } 
  
     /* GALERIA */
@@ -151,7 +160,7 @@ nav ul li a{
 
     /* CONTACTO */
 .colorContacto{
-        color: rgb(15, 15, 15);
+        color: whitesmoke;
       
  } 
 
@@ -172,5 +181,6 @@ nav ul li a{
 .imagen__somos{
     width: 100%;
     height: auto;
-    padding: 20px 80px 20px 80px
+    padding: 10px 20%;
+    object-fit: fill ;
 }
