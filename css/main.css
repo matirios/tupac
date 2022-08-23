@@ -1,0 +1,175 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*{
+    font-family: 'Fascinate', cursive;
+    font-family: 'League Gothic', sans-serif;
+}*/
+
+.fondopantalla {
+  height: 100%;
+  width: 100%;
+  background-image: url("../imagenes/fondodepantalla.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: solid 2px black;
+}
+
+.colorcabecera {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+nav ul {
+  list-style: none;
+}
+
+p {
+  font-family: "League Gothic", sans-serif;
+  font-weight: 700;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 0, 5px;
+}
+
+.colorParrafo {
+  width: 90%;
+  padding: 20px 30px 5px 50px;
+  color: wheat;
+  text-align: center;
+}
+
+nav ul li a {
+  color: black;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  font-family: "Fascinate", cursive;
+}
+
+.pie_pagina {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tamañologo {
+  height: 140px;
+  width: 200px;
+  padding: 10px 10px 0px;
+}
+
+.whatsapp {
+  width: 50px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+.video_index {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5% 5% 5% 5%;
+}
+
+section iframe {
+  border: solid 2px whitesmoke;
+  width: 60%;
+  height: 100%;
+}
+
+.carousel-item {
+  padding: 20px 20px 20px 20px;
+}
+
+.navbar-brand {
+  padding: 0 20px;
+  color: rgb(32, 32, 37);
+  font-size: 50px;
+  transition: transform 3s;
+}
+
+.navbar-brand:hover {
+  transform: rotate(360deg);
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-fluid {
+  font-family: "Fascinate", cursive;
+}
+
+.nav-link {
+  font-size: 30px;
+  color: rgb(32, 32, 37);
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.galeria__imagen {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.galeria__imagen__jogger {
+  width: 100%;
+  height: 600px;
+  padding: 20px 20px 20px 20px;
+}
+
+.galeria__imagen__texto {
+  text-align: center;
+}
+
+.imagen__somos {
+  width: 100%;
+  height: auto;
+  padding: 10px 20%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.colorContacto {
+  color: whitesmoke;
+}
+
+.formulario__item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 20px;
+  color: black;
+  font-family: "League Gothic", sans-serif;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.row {
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.tamaño_mapa {
+  margin: 10px 10px 10px 10px;
+  height: 80%;
+  width: auto;
+}/*# sourceMappingURL=main.css.map */
